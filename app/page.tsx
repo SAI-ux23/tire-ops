@@ -1,5 +1,5 @@
 export default function Home() {
-  const buttonStyle = {
+  const btnStyle = {
     display: "block",
     margin: "10px 0",
     padding: "15px",
@@ -17,9 +17,9 @@ export default function Home() {
       <h2>Tire Inventory Management System</h2>
 
       <div style={{ marginTop: "30px" }}>
-        <button style={buttonStyle}>Add Stock</button>
-        <button style={buttonStyle}>Record Sale</button>
-        <button style={buttonStyle}>View Inventory</button>
+        <button style={btnStyle}>Add Stock</button>
+        <button style={btnStyle}>Record Sale</button>
+        <button style={btnStyle}>View Inventory</button>
       </div>
     </main>
   );
