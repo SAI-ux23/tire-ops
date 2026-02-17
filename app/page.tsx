@@ -1,10 +1,10 @@
-\export default function Home() {
-  const pageStyle: React.CSSProperties = {
+export default function Home() {
+  const pageStyle = {
     padding: "40px",
     fontFamily: "Arial",
   };
 
-  const buttonStyle: React.CSSProperties = {
+  const buttonStyle = {
     display: "block",
     margin: "10px 0",
     padding: "15px",
