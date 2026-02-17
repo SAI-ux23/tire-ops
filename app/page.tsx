@@ -1,5 +1,10 @@
-export default function Home() {
-  const btnStyle = {
+\export default function Home() {
+  const pageStyle: React.CSSProperties = {
+    padding: "40px",
+    fontFamily: "Arial",
+  };
+
+  const buttonStyle: React.CSSProperties = {
     display: "block",
     margin: "10px 0",
     padding: "15px",
@@ -12,14 +17,14 @@ export default function Home() {
   };
 
   return (
-    <main style={{ padding: "40px", fontFamily: "Arial" }}>
+    <main style={pageStyle}>
       <h1>ZEHLEPHA Tire OPS</h1>
       <h2>Tire Inventory Management System</h2>
 
       <div style={{ marginTop: "30px" }}>
-        <button style={btnStyle}>Add Stock</button>
-        <button style={btnStyle}>Record Sale</button>
-        <button style={btnStyle}>View Inventory</button>
+        <button style={buttonStyle}>Add Stock</button>
+        <button style={buttonStyle}>Record Sale</button>
+        <button style={buttonStyle}>View Inventory</button>
       </div>
     </main>
   );
